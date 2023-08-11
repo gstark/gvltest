@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test Rails app to determine if [newrelic gvl](https://github.com/gstark/newrelic_gvl/) has a bug.
 
-Things you may want to cover:
+To run:
 
-* Ruby version
+```
+bundle install
+bundle exec sidekiq
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
